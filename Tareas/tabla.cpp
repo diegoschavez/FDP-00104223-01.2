@@ -38,6 +38,14 @@ main()
     Domingo();
 
 
+    /*El Faro - Robert Eggers
+    Akira - Katsuhiro Ôtomo
+    Cuentos de Terramar - Goro Miyazaki
+    the hateful eight - Quentin tarantino 
+    GodFellas - Martin Scorsese
+    Island of dogs - Wes anderson 
+    El infierno - Luis Estrada 
+    Supercool - Greg Mottola*/
 
 
     return 0;
@@ -45,9 +53,9 @@ main()
 
 
 void lunes(){
-    cout<<" ____________________________________________________________\n";
-    cout<<"| Dia                Horarios                       Precios  |\n";
-    cout<<" ------------------------------------------------------------\n";
+    cout<<" _____________________________________________________________________________________________\n";
+    cout<<"| Dia                Horarios                       Precios                  Pelicula         |\n";
+    cout<<" ---------------------------------------------------------------------------------------------\n";
 
     string producto;
     float precio = 0.0;
@@ -63,6 +71,14 @@ void lunes(){
         float precio3;
         float precio4;
         float precio5;
+        string movie1;
+        string movie2;
+        string movie3;
+        string movie4;
+        string movie5;
+        string movie6;
+        string movie7;
+        string movie8;
 
     };
     horario puesto;
@@ -75,9 +91,18 @@ void lunes(){
     puesto.precio2 = 3.50;
     puesto.precio3 = 1.25;
     puesto.precio4 = 4.50;
+    puesto.movie1 = "El Faro - Robert Eggers";
+    puesto.movie2 ="Akira - Katsuhiro Ôtomo";
+    puesto.movie3 ="Cuentos de Terramar - Goro Miyazaki";
+    puesto.movie4 ="the hateful eight - Quentin tarantino";
+    puesto.movie5 ="GodFellas - Martin Scorsese";
+    puesto.movie6 ="Island of dogs - Wes anderson ";
+    puesto.movie7 ="El infierno - Luis Estrada ";
+    puesto.movie8 ="Supercool - Greg Mottola";
 
    string arrayL[4]{puesto.morning, puesto.lunch, puesto.afternoon, puesto.evening};
    float arrayLp[4]{puesto.precio1, puesto.precio2, puesto.precio3, puesto.precio4};
+   string arrayM[8]{puesto.movie1, puesto.movie2, puesto.movie3, puesto.movie4, puesto.movie5, puesto.movie6, puesto.movie7, puesto.movie8};
 
     for (int i = 0; i < 4; i++)
     {
