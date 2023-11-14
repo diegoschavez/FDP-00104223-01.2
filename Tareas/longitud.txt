@@ -1,0 +1,4 @@
+Ejercicio 20: Contar Palabras por Longitud:
+Desarrolla un programa que lea un archivo de texto ("longitud.txt") y cuente la cantidad de
+palabras de diferentes longitudes (por ejemplo, cuántas palabras tienen 3 letras, cuántas
+tienen 4, etc.). Guarda el resultado en un nuevo archivo llamado "conteo_longitud.txt
